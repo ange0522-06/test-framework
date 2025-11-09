@@ -1,0 +1,38 @@
+
+javac -cp lib/jakarta.servlet-api-5.0.0.jar -d build src/core/FrontServlet.java
+jar cf Framework.jar -C build .
+
+
+# Verification bien test
+jar tf Framework.jar   
+
+& "C:\Program Files\Java\jdk-17\bin\javac.exe" -d build_framework src\main\java\core\**\*.java
+
++++++++++++++++++++++
+STRUCTURE DU PROJET:
+sprint2_bis
+test/src/main/java/annotation/Main.java 
+test/src/main/java/annotation/ProductAPI.java 
+test/src/main/java/annotation/Teste.java
+test/src/main/java/annotation/UserController.java
+test/run-main.bat (qui affiche le resultat dans le terminal)
+
+framework/src/core/annotations/Controller.java
+framework/src/core/annotations/Get.java
+framework/src/core/annotations/MyURL.java
+framework/src/core/utils/AnnotationScanner.java
+framework/src/core//FrontServlet.java
+framework/compile.bat
+
+
+
+compilation
+javac -d out `
+framework\src\core\annotations\Controller.java `
+framework\src\core\annotations\MyURL.java `
+test_avec_le_framew\src\main\java\controllers\HomeController.java `
+test_avec_le_framew\src\main\java\controllers\UserController.java `
+test_avec_le_framew\src\main\java\Main.java
+
+execution
+java -cp out Main

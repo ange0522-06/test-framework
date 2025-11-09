@@ -1,0 +1,8 @@
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\HelloWorldServlet.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\annotation\Main.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\annotation\ProductAPI.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\annotation\Teste.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\annotation\UserController.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\core\annotations\Controller.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\core\annotations\Get.java
+C:\xampp\htdocs\S5\MTovo_n\test_avec_le_framew\src\main\java\core\annotations\MyURL.java
