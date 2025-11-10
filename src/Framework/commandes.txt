@@ -1,0 +1,7 @@
+
+javac -cp lib/jakarta.servlet-api-5.0.0.jar -d build src/core/RouterServlet.java
+jar cf Framework.jar -C build .
+
+
+# Verification
+jar tf Framework.jar
